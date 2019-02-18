@@ -2,5 +2,5 @@
 
 @Library('MicroserviceBuilder') _
 microserviceBuilderPipeline {
-  image = 'microclimatenodetemplate'
+  image = '[PROJ_NAME_PLACEHOLDER]'
 }

@@ -24,11 +24,11 @@ require('./routers/index')(app);
 
 const port = process.env.PORT || localConfig.port;
 app.listen(port, function(){
-  logger.info(`microclimatenodetemplate listening on http://localhost:${port}/appmetrics-dash`);
-  
-  logger.info(`microclimatenodetemplate listening on http://localhost:${port}`);
-  
-  
+  logger.info(`[PROJ_NAME_PLACEHOLDER] listening on http://localhost:${port}/appmetrics-dash`);
+
+  logger.info(`[PROJ_NAME_PLACEHOLDER] listening on http://localhost:${port}`);
+
+
 });
 
 app.use(function (req, res, next) {

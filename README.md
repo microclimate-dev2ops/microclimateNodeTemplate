@@ -1,4 +1,4 @@
-# microclimatenodetemplate
+# [PROJ_NAME_PLACEHOLDER]
 A generated IBM Cloud application
 
 [![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://bluemix.net)
